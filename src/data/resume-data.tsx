@@ -1,236 +1,192 @@
 import type { ResumeData } from "@/lib/types";
 
 export const RESUME_DATA: ResumeData = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Ivan Putra Eriansya",
+  initials: "Ivan",
+  location: "jakarta, Indonesia",
+  locationLink: "https://www.google.com/maps/place/Jakarta",
   about: "Full Stack Engineer dedicated to building high-quality products.",
   summary: (
     <>
-      Full Stack Engineer specializing in high-performance React applications,
-      scalable Node.js services, and real-time collaboration systems.
-      Experienced in technical architecture design and remote team leadership.
+      A Full Stack Software Engineer with 7+ years of experience in creating
+      scalable web applications. Expertise in React, Node.js, and Ruby on Rails,
+      with a strong foundation in both frontend and backend technologies.
+      Passionate about learning new technologies and improving development
+      processes.
     </>
   ),
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  avatarUrl: "https://avatars.githubusercontent.com/u/18480194",
+  personalWebsiteUrl: "",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "eriansha.van@gmail.com",
+    tel: "+6281314520810",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/eriansha",
         icon: "github",
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/mivanputra/",
         icon: "linkedin",
       },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: "x",
-      },
+      // TODO: add twitter here
+      // {
+      //   name: "X",
+      //   url: "https://x.com/BartoszJarocki",
+      //   icon: "x",
+      // },
     ],
   },
   education: [
     {
       school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      degree: "Bachelor's Degree in Informatics Engineering",
+      start: "2014",
+      end: "2018",
     },
   ],
   work: [
     {
-      company: "Motion",
-      link: "https://motionapp.com/",
-      badges: ["Remote", "AI", "React", "Next.js", "TypeScript", "AdonisJS"],
-      title: "Senior Software Engineer",
-      start: "2025",
+      company: "Bank Neo Commerce",
+      link: "https://www.bankneocommerce.co.id/id/home",
+      badges: [
+        "Full Stack",
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Vite",
+        "SpringBoot",
+      ],
+      title: "Software Engineer",
+      start: "Sept 2024",
       end: null,
       description: (
         <>
-          Working on internal AI agents platform allowing marketing specialists
-          to create AI workflows.
+          Working on improving digital transaction experiences via QRIS and
+          Virtual Account systems.
         </>
       ),
     },
     {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote", "React", "Next.js", "TypeScript", "Node.js"],
-      title: "Software Architect",
-      start: "2024",
-      end: "2025",
+      company: "Tinkerlust",
+      link: "https://www.tinkerlust.com/",
+      badges: ["Remote", "React", "Next.js", "TypeScript", "Ruby on Rails"],
+      title: "Full Stack Software Engineer",
+      start: "Jun 2023",
+      end: "Jul 2024",
       description: (
         <>
-          Leading technical architecture of a blockchain-based film funding
-          platform.
+          Leading engineering platform for tech-based secondhand fashion
+          ecommerce
           <ul className="list-inside list-disc">
             <li>
-              Architecting migration from CRA to Next.js for improved
-              performance, SEO, and DX
+              Led the migration of two user-facing frontend web applications
+              into a monorepo to streamline our frontend architecture using NPM
+              Workspaces. This resulted in easier maintenance and improved
+              consistency in common libraries used across the two apps.
             </li>
             <li>
-              Established release process enabling faster deployments and
-              reliable rollbacks
+              Identified and led the development of rolling deployments that
+              eliminated downtimes of our user-facing NextJS web application
             </li>
             <li>
-              Implementing system-wide monitoring and security improvements
+              Led the development of Tinkerlust UI Library using React.js and
+              Vite, adhering to the Design System and company brand guidelines
+              across all web applications
             </li>
           </ul>
         </>
       ),
     },
     {
-      company: "Parabol",
-      link: "https://parabol.co",
+      company: "Sayurbox",
+      link: "https://sayurbox.com",
       badges: [
         "Remote",
-        "React",
+        "React Native",
         "TypeScript",
-        "Node.js",
         "GraphQL",
-        "Tailwind CSS",
+        "WebDriver I/O",
+        "Svelte",
       ],
-      title: "Senior Full Stack Developer",
-      start: "2021",
-      end: "2024",
+      title: "Software Developer Engineer 2",
+      start: "Mar 2022",
+      end: "May 2023",
       description: (
         <>
-          Senior developer and squad leader for an enterprise agile meeting
-          platform.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic,
+          perferendis.
           <ul className="list-inside list-disc">
             <li>
-              Built design system with Tailwind CSS, improving development speed
-              and time to market
+              Increased the number of customers building baskets with an average
+              order of 150k from 21% to 53.03% by developing “Tebus Murah” on
+              the Frontend side, both web and mobile, using React Native and
+              GraphQL
             </li>
             <li>
-              Implemented engineering practices: PR automation, code review
-              guidelines, and workflows
+              Reduced B2C abusers from a median of 4.5% to 2.03% by developing a
+              device verification feature on both web and mobile using React
+              Native, effectively preventing the same person from abusing
+              welcome vouchers
             </li>
             <li>
-              Open source contributions to Relay DevTools and React i18n tooling
+              Led the e2e test automation with the Engineering Efficiency team
+              on both web and Android platforms using WebDriver I/O for
+              improving test coverage and reducing manual testing
             </li>
           </ul>
         </>
       ),
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote", "React", "TypeScript", "Node.js", "Android", "Kotlin"],
-      title: "Lead Android Developer → Full Stack Developer",
-      start: "2015",
-      end: "2021",
-      description: (
-        <>
-          Successfully transitioned from mobile to full-stack development while
-          leading distributed teams.
-          <ul className="list-inside list-disc">
-            <li>
-              Led frontend team at Evercast, building real-time platform
-              supporting 30+ users per room with HD streaming and collaboration
-              tools
-            </li>
-            <li>
-              Developed offline-first Android app for DKMS, improving donor
-              registration process
-            </li>
-            <li>
-              Led development teams across multiple successful client projects
-            </li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: ["On Site", "Android", "Java", "Kotlin"],
-      title: "Android Developer → Lead Android Developer",
-      start: "2012",
-      end: "2015",
-      description: (
-        <>
-          First Android developer, grew and led a team of 15+ engineers while
-          establishing engineering culture.
-          <ul className="list-inside list-disc">
-            <li>
-              Developed apps for major Polish companies including LOT, Polskie
-              Radio, and Agora
-            </li>
-            <li>Built and mentored high-performing mobile development team</li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: ["On Site", "C/C++", "LTE", "Agile"],
-      title: "C/C++ Developer",
-      start: "2010",
-      end: "2012",
+      company: "Tinkerlust",
+      link: "https://www.tinkerlust.com/",
+      badges: ["React", "Python", "Javascript", "Ruby on Rails"],
+      title: "Full Stack Software Engineer",
+      start: "Sep 2019",
+      end: "Mar 2022",
       description:
-        "Developed software for LTE base stations at enterprise scale, gaining strong fundamentals in software architecture, testing practices, and cross-team collaboration.",
+        "Working as Full Stack Engineer to develop and maintance ecommerce and internal dashboard",
+    },
+    {
+      company: "Ecomindo",
+      link: "https://www.ecomindo.com/",
+      badges: ["C#", "ASP.NET", "Ms. Sharepoint"],
+      title: "Web Developer",
+      start: "Mar 2018",
+      end: "Sep 2019",
+      description:
+        "Developed an initial public offering system in Indonesian Stock Exchange to increase the number of investors, especially retail, encourage transparency in share allocation, and more effective regulatory supervision using .NET tech stacks",
     },
   ],
   skills: [
-    "React/Next.js/Remix",
+    "React/Next.js/",
+    "Vite ",
     "TypeScript",
     "Tailwind CSS",
     "Design Systems",
-    "WebRTC",
-    "WebSockets",
+    "Ruby",
+    "Ruby on Rails",
     "Node.js",
     "GraphQL",
-    "Relay",
-    "System Architecture",
-    "Remote Team Leadership",
+    "Go",
+    "SwiftUI",
+    "AWS",
+    "Sentry",
+    "Datadog",
+    "MYSQL",
   ],
   projects: [
     {
-      title: "Monito",
-      techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
+      title: "py-mail-expenses",
+      techStack: ["Python", "Gmail API", "Spreadsheet API", "Antropics"],
       description:
-        "Browser extension for debugging web applications. Includes taking screenshots, screen recording, E2E tests generation and generating bug reports",
+        "Automated expense tracking system that monitors Gmail for bank transaction notifications and extracts transaction details for personal finance management",
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Consultly",
-      techStack: [
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-        "Tailwind CSS",
-        "PostgreSQL",
-        "Redis",
-      ],
-      description:
-        "Platform for online consultations with real-time video meetings and scheduling",
-      link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
-    },
-    {
-      title: "Minimalist CV",
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
-      description:
-        "An open source minimalist, print friendly CV template with a focus on readability and clean design. >9k stars on GitHub",
-      link: {
-        label: "Minimalist CV",
-        href: "https://github.com/BartoszJarocki/cv",
+        label: "py-mail-expenses",
+        href: "https://github.com/eriansha/py-mail-expenses",
       },
     },
   ],

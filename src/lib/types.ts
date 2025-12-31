@@ -24,6 +24,7 @@ export interface ResumeData {
   };
   education: Array<{
     school: string;
+    link: string;
     degree: string;
     start: string;
     end: string;

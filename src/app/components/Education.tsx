@@ -24,6 +24,28 @@ function EducationPeriod({ start, end }: EducationPeriodProps) {
   );
 }
 
+interface SchoolLinkProps {
+  school: Education["school"];
+  link: Education["link"];
+}
+
+/**
+ * Renders company name with optional link
+ */
+function SchoolLink({ school, link }: SchoolLinkProps) {
+  return (
+    <a
+      className="hover:underline"
+      href={link}
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label={`${school} school website`}
+    >
+      {school}
+    </a>
+  );
+}
+
 interface EducationItemProps {
   education: Education;
 }
@@ -32,7 +54,7 @@ interface EducationItemProps {
  * Individual education card component
  */
 function EducationItem({ education }: EducationItemProps) {
-  const { school, start, end, degree } = education;
+  const { school, start, end, degree, link } = education;
 
   return (
     <Card>
@@ -42,7 +64,7 @@ function EducationItem({ education }: EducationItemProps) {
             className="font-semibold leading-none"
             id={`education-${school.toLowerCase().replace(/\s+/g, "-")}`}
           >
-            {school}
+            <SchoolLink school={school} link={link} />
           </h3>
           <EducationPeriod start={start} end={end} />
         </div>

@@ -41,24 +41,18 @@ export const RESUME_DATA: ResumeData = {
   },
   education: [
     {
-      school: "Wrocław University of Technology",
+      school: "Universitas Budi Luhur",
+      link: "https://www.budiluhur.ac.id/",
       degree: "Bachelor's Degree in Informatics Engineering",
-      start: "2014",
-      end: "2018",
+      start: "Sep 2014",
+      end: "May 2018",
     },
   ],
   work: [
     {
       company: "Bank Neo Commerce",
       link: "https://www.bankneocommerce.co.id/id/home",
-      badges: [
-        "Full Stack",
-        "React",
-        "Next.js",
-        "TypeScript",
-        "Vite",
-        "SpringBoot",
-      ],
+      badges: ["Full Stack", "React", "Next.js", "Vite", "SpringBoot"],
       title: "Software Engineer",
       start: "Sept 2024",
       end: null,
@@ -66,6 +60,25 @@ export const RESUME_DATA: ResumeData = {
         <>
           Working on improving digital transaction experiences via QRIS and
           Virtual Account systems.
+          <ul className="list-inside list-disc">
+            <li>
+              Led the revamp of the Merchant Dashboard to support desktop
+              layouts, including enhancing mobile-view components for responsive
+              behavior on larger screens. It was built using React, Typescript,
+              Webpack, and Vite.
+            </li>
+            <li>
+              Maintained and extended features in the Internal Merchant
+              Management Dashboard, working with legacy codebases to ensure
+              system stability and ongoing functionality.
+            </li>
+            <li>
+              Directed the end-to-end development of the Open API website as the
+              primary frontend engineer using NextJS, with additional
+              contributions on the backend to streamline QRIS merchant
+              onboarding.
+            </li>
+          </ul>
         </>
       ),
     },

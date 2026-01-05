@@ -52,7 +52,7 @@ export const RESUME_DATA: ResumeData = {
     {
       company: "Bank Neo Commerce",
       link: "https://www.bankneocommerce.co.id/id/home",
-      badges: ["Full Stack", "React", "Next.js", "Vite", "SpringBoot"],
+      badges: ["On Site", "React", "NextJS", "Vite", "SpringBoot"],
       title: "Software Engineer",
       start: "Sept 2024",
       end: null,
@@ -85,7 +85,7 @@ export const RESUME_DATA: ResumeData = {
     {
       company: "Tinkerlust",
       link: "https://www.tinkerlust.com/",
-      badges: ["Remote", "React", "Next.js", "TypeScript", "Ruby on Rails"],
+      badges: ["Remote", "React", "NextJS", "Ruby on Rails"],
       title: "Full Stack Software Engineer",
       start: "Jun 2023",
       end: "Jul 2024",
@@ -116,21 +116,14 @@ export const RESUME_DATA: ResumeData = {
     {
       company: "Sayurbox",
       link: "https://sayurbox.com",
-      badges: [
-        "Remote",
-        "React Native",
-        "TypeScript",
-        "GraphQL",
-        "WebDriver I/O",
-        "Svelte",
-      ],
+      badges: ["Remote", "React Native", "GraphQL", "WebDriver I/O", "Svelte"],
       title: "Software Developer Engineer 2",
       start: "Mar 2022",
       end: "May 2023",
       description: (
         <>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic,
-          perferendis.
+          Tech-powered online grocery supply chain. Series C-funded ($139mi
+          raised) perferendis.
           <ul className="list-inside list-disc">
             <li>
               Increased the number of customers building baskets with an average
@@ -156,7 +149,7 @@ export const RESUME_DATA: ResumeData = {
     {
       company: "Tinkerlust",
       link: "https://www.tinkerlust.com/",
-      badges: ["React", "Python", "Javascript", "Ruby on Rails"],
+      badges: ["On Site", "React", "Flask", "Ruby on Rails"],
       title: "Full Stack Software Engineer",
       start: "Sep 2019",
       end: "Mar 2022",
@@ -166,7 +159,7 @@ export const RESUME_DATA: ResumeData = {
     {
       company: "Ecomindo",
       link: "https://www.ecomindo.com/",
-      badges: ["C#", "ASP.NET", "Ms. Sharepoint"],
+      badges: ["On Site", "ASP.NET", "MS Sharepoint"],
       title: "Web Developer",
       start: "Mar 2018",
       end: "Sep 2019",
